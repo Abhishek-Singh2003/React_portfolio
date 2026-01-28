@@ -139,7 +139,7 @@ function Contact() {
                   </div>
                   <div className="email">
                     <EmailIcon className="email-icon" />
-                    <p className="email-p">abhisheksingh13722@gmail.com</p>
+                    <p className="email-p">abhisheksinghmnc@gmail.com</p>
                   </div>
                 </div>
               </div>

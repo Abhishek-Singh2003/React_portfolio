@@ -1,3 +1,5 @@
+/* ---------------- EXISTING CSS (same as yours) ---------------- */
+
 .skills-outer {
   background-color: rgb(0, 0, 0);
   width: 100%;
@@ -40,6 +42,7 @@
   justify-content: center;
   border-bottom: 3px solid rgb(25, 25, 25);
 }
+
 .skills-icon {
   font-size: 127px;
   color: var(--main-white);
@@ -50,10 +53,12 @@
   font-size: 90px;
   margin: 10px;
 }
+
 .xd {
   font-size: 110px;
   margin: 10px;
 }
+
 .redux {
   font-size: 100px;
   margin: 10px;
@@ -81,6 +86,7 @@
   box-shadow: 5px 5px 5px #000;
   transition: all 0.5s !important;
 }
+
 .skill-title {
   color: var(--main-white);
   font-size: 18px;
@@ -97,9 +103,12 @@
   color: yellow;
   background-color: #000;
 }
+
 .skills-card > .bootstrap {
   color: rgb(89, 9, 248);
-}.skills-card > .css {
+}
+
+.skills-card > .css {
   color: blue;
 }
 
@@ -110,48 +119,101 @@
 .skills-card > .react {
   color: rgb(3, 160, 250);
 }
+
 .skills-card > .java {
   color: blue;
 }
+
 .skills-card > .git {
   color: orangered;
 }
+
 .skills-card > .angularsimple {
   color: red;
 }
+
 .skills-card > .figma,
 .skills-card > .redux {
   color: purple;
 }
+
 .skills-card > .xd {
   color: #461934;
   background-color: #f37df0;
   border-radius: 40px;
 }
 
-/* Existing styles remain unchanged, adding new ones below */
 .skills-card > .springboot {
-  color: #6db33f; /* Spring Boot green */
+  color: #6db33f;
 }
 
 .skills-card > .mysql {
-  color: #00758f; /* MySQL teal */
+  color: #00758f;
 }
 
 .skills-card > .oracle {
-  color: #f80000; /* Oracle red */
+  color: #f80000;
 }
 
 .skills-card > .restfulapi {
-  color: #4a90e2; /* A generic blue for RESTful API */
+  color: #4a90e2;
 }
 
 .skills-card:hover > .skill-title {
   color: rgb(255, 255, 255);
 }
+
 .skills-card > .router {
   color: red;
 }
+
+/* ---------------- NEW SKILLS ADDED BELOW ---------------- */
+
+.skills-card > .postgresql {
+  color: #336791; /* PostgreSQL blue */
+}
+
+.skills-card > .typescript {
+  color: #3178c6; /* TypeScript blue */
+}
+
+.skills-card > .docker {
+  color: #0db7ed; /* Docker blue */
+}
+
+.skills-card > .jenkins {
+  color: #d24939; /* Jenkins red */
+}
+
+.skills-card > .postman {
+  color: #ff6c37; /* Postman orange */
+}
+
+.skills-card > .swagger {
+  color: #85ea2d; /* Swagger green */
+}
+
+.skills-card > .junit {
+  color: #25a162; /* JUnit green */
+}
+
+.skills-card > .maven {
+  color: #c71a36; /* Maven red */
+}
+
+.skills-card > .linux {
+  color: #fcc624; /* Linux yellow */
+}
+
+.skills-card > .microservices {
+  color: #4fc3f7; /* Microservices cloud blue */
+}
+
+.skills-card > .jwt {
+  color: #f4d03f; /* JWT golden */
+}
+
+/* ---------------- RESPONSIVE ---------------- */
 
 @media screen and (max-width: 481px) {
   .skills-card > .xd {

@@ -2,9 +2,9 @@ export const data = [
   {
     id: 234,
     img: "https://res.cloudinary.com/dixdiy3uj/image/upload/v1742382133/Screenshot_5_bqdywf.png",
-    host: "https://abhi-shopping.netlify.app",
+    host: "https://curosity-closet.vercel.app",
     title: "Shopping cart",
-    github: "https://github.com/Abhishek-Singh2003/Shopping-Website",
+    github: "https://github.com/Abhishek-Singh2003/Curosity-Closet---Frontend",
   },
   {
     id: 18,
@@ -41,20 +41,31 @@ export const data = [
     title: "Food Delight",
     github: "https://github.com/Abhishek-Singh2003/Food-delight",
   },
-  // {
-  //   id: 9,
-  //   img: "https://res.cloudinary.com/diyky5uya/image/upload/v1652800332/country_dcbmzo.png",
-  //   host: "https://country123.netlify.app//",
-  //   title: "Search country ( api )",
-  //   github: "https://github.com/levaniakobidze/Country-search-API",
-  // },
-  // {
-  //   id: 77,
-  //   img: "https://res.cloudinary.com/diyky5uya/image/upload/v1656272658/typehead_jwriod.png",
-  //   host: "https://github-typehead-api.vercel.app/",
-  //   title: "Github Typehead API",
-  //   github: "https://github.com/levaniakobidze/Github-Typehead-api",
-  // },
+  {
+    id: 9,
+    img: "https://res.cloudinary.com/dixdiy3uj/image/upload/v1769625799/Screenshot_2026-01-29_001256_xhltyr.png",
+    host: "https://carrer-page.netlify.app/",
+    title: "Search Your Dream Job",
+    github: "https://github.com/Abhishek-Singh2003/Carrer-Page-",
+  },
+  {
+    id: 77,
+    img: "https://res.cloudinary.com/dixdiy3uj/image/upload/v1769626018/Screenshot_2026-01-29_001636_qzthk1.png",
+    host: "https://abhi-forecast-weather.netlify.app/",
+    title: "Weather Forecast",
+    github: "https://github.com/Abhishek-Singh2003/Weather-forecast",
+  },
+  {
+    id: 7,
+    img: "https://res.cloudinary.com/dixdiy3uj/image/upload/v1740907741/Screenshot_27_xgype2.png",
+    host: "https://abhi-gallery1.netlify.app/",
+    title: "Gallery",
+    github: "https://github.com/Abhishek-Singh2003/Gallery",
+  },
+
+];
+
+export const moreData = [
 
   // {
   //   id: 22,
@@ -63,16 +74,6 @@ export const data = [
   //   title: "Resturant page",
   //   github: "https://github.com/levaniakobidze/resturant-landing-page",
   // },
-];
-
-export const moreData = [
-  {
-    id: 7,
-    img: "https://res.cloudinary.com/dixdiy3uj/image/upload/v1740907741/Screenshot_27_xgype2.png",
-    host: "https://abhi-gallery1.netlify.app/",
-    title: "Gallery",
-    github: "https://github.com/Abhishek-Singh2003/Gallery",
-  },
   // {
   //   id: 2,
   //   img: "https://res.cloudinary.com/diyky5uya/image/upload/v1649954893/users_q4ebfs.png",

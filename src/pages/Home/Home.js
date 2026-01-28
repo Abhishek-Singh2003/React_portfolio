@@ -57,7 +57,7 @@ function Home() {
                 <span>e</span>
                 <span>r</span>
               </h1>
-              <p>Highly skilled and detail-oriented Full-Stack Developer with a strong foundation in front-end and back-end development. Holds a Bachelor of Technology (B.Tech) in Computer Science from RGPV University. Experienced in solving complex problems and developing efficient, scalable web applications. Passionate about writing clean, maintainable code and continuously improving technical expertise.</p>
+              <p>Backend-focused Full Stack Java Developer with 2 years of experience working in a startup environment, primarily on Java and Spring Boot–based applications. Skilled in developing REST APIs, handling business logic, and working with relational databases such as MySQL and Oracle. Also experienced with front-end technologies including HTML, CSS, JavaScript, and Angular. Holds a B.Tech in Computer Science from RGPV University and is passionate about building efficient, reliable, and scalable software solutions..</p>
 
               <div className='home-btn'>
                 <a href={"#contact"} className='hireme-btn'>
