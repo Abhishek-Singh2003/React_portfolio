@@ -5,13 +5,13 @@ import Skills from "./pages/Skills/Skills";
 import Navbar from "./Components/Navbar/Navbar";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
-import React, { useState } from "react";
+import React from "react";
 import Footer from "./Components/Footer/Footer";
 import SlideUp from "./Components/SlideUp/SlideUp";
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Navbar />
       <Home />
       <About />
