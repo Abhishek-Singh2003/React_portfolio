@@ -19,9 +19,7 @@ function About() {
             </div>
             <div className='about-p'>
               <p>
-               Hi, I’m Abhishek Singh, a Full Stack Web Developer from Rewa, India. I have around 2 years of experience in building responsive and user-friendly web applications using HTML, CSS, JavaScript, Bootstrap, and Angular. On the backend, I work with Java and Spring Boot, along with databases like MySQL and Oracle, and I build RESTful APIs to connect front-end and back-end systems.
-
-
+              Hi, I’m Abhishek Singh, a Full Stack Java Developer from Rewa, India. I have around 3 years of experience in developing scalable and user-friendly web applications using React, HTML, CSS, JavaScript, and Bootstrap. My primary expertise is in backend development with Java and Spring Boot, where I build RESTful APIs and microservices-based applications. I also work with databases like MySQL and Oracle to design efficient and reliable backend systems.
               </p>
             </div>
             <div className='about-list-skills'>
@@ -38,12 +36,12 @@ function About() {
 
                 <div className='about-list-item'>
                   <h5>Address</h5> <tag className='adress-colon'>:</tag>{" "}
-                  <p>India, Hyderabad</p>
+                  <p>Rewa, India</p>
                 </div>
 
                 <div className='about-list-item'>
                   <h5>Phone</h5> <tag className='phone-colon'>:</tag>{" "}
-                  <p>(+91) 9165946929</p>
+                  <p>(+91) 8815341979</p>
                 </div>
 
                 <div className='about-list-item'>

@@ -135,7 +135,7 @@ function Contact() {
                 <div className="email-phone-cont">
                   <div className="phone">
                     <PhoneIcon className="phone-icon" />
-                    <p>(+91) 9165946929</p>
+                    <p>(+91) 8815341979</p>
                   </div>
                   <div className="email">
                     <EmailIcon className="email-icon" />

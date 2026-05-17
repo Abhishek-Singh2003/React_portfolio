@@ -33,31 +33,34 @@ function Home() {
               <h3>Hi, I'm Abhi,</h3>
               <h1>
                 <span className='o'>F</span>
-                <span>u</span>
-                <span>l</span>
-                <span>l</span>
-                <span>-</span>
-                <span>s</span>
-                <span>t</span>
-                <span>a</span>
-                <span>c</span>
-                <span>k</span>
-                &nbsp;
-                <span>w</span>
-                <span>e</span>
-                <span>b</span>
-                &nbsp;
-                <span className='o'>D</span>
-                <span>e</span>
-                <span>v</span>
-                <span>e</span>
-                <span>l</span>
-                <span>o</span>
-                <span>p</span>
-                <span>e</span>
-                <span>r</span>
+<span>u</span>
+<span>l</span>
+<span>l</span>
+<span>-</span>
+<span>S</span>
+<span>t</span>
+<span>a</span>
+<span>c</span>
+<span>k</span>
+&nbsp;
+<span className='o'>J</span>
+<span>a</span>
+<span>v</span>
+<span>a</span>
+&nbsp;
+<span className='o'>D</span>
+<span>e</span>
+<span>v</span>
+<span>e</span>
+<span>l</span>
+<span>o</span>
+<span>p</span>
+<span>e</span>
+<span>r</span>
               </h1>
-              <p>Backend-focused Full Stack Java Developer with 2 years of experience working in a startup environment, primarily on Java and Spring Boot–based applications. Skilled in developing REST APIs, handling business logic, and working with relational databases such as MySQL and Oracle. Also experienced with front-end technologies including HTML, CSS, JavaScript, and Angular. Holds a B.Tech in Computer Science from RGPV University and is passionate about building efficient, reliable, and scalable software solutions..</p>
+              <p>Hi, I’m Abhishek Singh, a Full Stack Developer from Rewa, India, with around 3 years of experience mainly focused on backend development using Java and Spring Boot. I have strong experience in building scalable RESTful APIs, developing microservices-based applications, and working with databases like MySQL and Oracle. On the frontend, I have worked with React, along with HTML, CSS, JavaScript, and Bootstrap, to build responsive and user-friendly web applications.
+
+</p>
 
               <div className='home-btn'>
                 <a href={"#contact"} className='hireme-btn'>

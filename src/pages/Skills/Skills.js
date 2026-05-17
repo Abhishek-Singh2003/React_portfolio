@@ -24,11 +24,20 @@ import {
   SiJunit5,
   SiApachemaven,
   SiLinux,
-  SiTypescript
+  SiTypescript,
+  SiKubernetes,
+  SiAmazonaws,
+  SiApachekafka,
+  SiRedis
 } from "react-icons/si";
 
-import { FaServer, FaKey } from "react-icons/fa"; // FaKey for JWT
-import { MdCloudQueue } from "react-icons/md"; // for Microservices
+import {
+  FaServer,
+  FaKey,
+  FaVial
+} from "react-icons/fa";
+
+import { MdCloudQueue } from "react-icons/md";
 
 function Skills() {
   return (
@@ -36,12 +45,15 @@ function Skills() {
       <div className="skills" id="skills">
         <Container className="skills-cont">
           <div className="skills-content-wrapper">
+
             <div className="skills-header">
               <h1>Skills</h1>
             </div>
 
             <div className="skills-list-wrapper">
+
               {/* Frontend */}
+
               <div className="skills-card" data-aos="slide-down">
                 <DiHtml5 className="skills-icon html" />
                 <div className="skill-title">HTML</div>
@@ -73,6 +85,7 @@ function Skills() {
               </div>
 
               {/* Backend */}
+
               <div className="skills-card" data-aos="slide-up">
                 <DiJava className="skills-icon java" />
                 <div className="skill-title">Java</div>
@@ -99,6 +112,7 @@ function Skills() {
               </div>
 
               {/* Database */}
+
               <div className="skills-card" data-aos="slide-up">
                 <SiMysql className="skills-icon mysql" />
                 <div className="skill-title">MySQL</div>
@@ -114,7 +128,8 @@ function Skills() {
                 <div className="skill-title">PostgreSQL</div>
               </div>
 
-              {/* Tools */}
+              {/* DevOps & Tools */}
+
               <div className="skills-card" data-aos="slide-up">
                 <DiGit className="skills-icon git" />
                 <div className="skill-title">Git</div>
@@ -123,6 +138,31 @@ function Skills() {
               <div className="skills-card" data-aos="slide-up">
                 <SiDocker className="skills-icon docker" />
                 <div className="skill-title">Docker</div>
+              </div>
+
+              <div className="skills-card" data-aos="slide-up">
+                <SiKubernetes className="skills-icon kubernetes" />
+                <div className="skill-title">Kubernetes</div>
+              </div>
+
+              <div className="skills-card" data-aos="slide-up">
+                <SiAmazonaws className="skills-icon aws" />
+                <div className="skill-title">AWS</div>
+              </div>
+
+              <div className="skills-card" data-aos="slide-up">
+                <SiApachekafka className="skills-icon kafka" />
+                <div className="skill-title">Kafka</div>
+              </div>
+
+              <div className="skills-card" data-aos="slide-up">
+                <SiRedis className="skills-icon redis" />
+                <div className="skill-title">Redis</div>
+              </div>
+
+              <div className="skills-card" data-aos="slide-up">
+                <FaVial className="skills-icon mockito" />
+                <div className="skill-title">Mockito</div>
               </div>
 
               <div className="skills-card" data-aos="slide-up">
@@ -154,6 +194,7 @@ function Skills() {
                 <SiLinux className="skills-icon linux" />
                 <div className="skill-title">Linux</div>
               </div>
+
             </div>
           </div>
         </Container>

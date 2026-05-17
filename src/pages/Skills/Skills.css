@@ -194,7 +194,7 @@
 }
 
 .skills-card > .junit {
-  color: #25a162; /* JUnit green */
+  color: #8d391b; /* JUnit green */
 }
 
 .skills-card > .maven {
@@ -213,20 +213,46 @@
   color: #f4d03f; /* JWT golden */
 }
 
+/* ---------------- NEWLY ADDED ---------------- */
+
+.skills-card > .kubernetes {
+  color: #326ce5; /* Kubernetes blue */
+}
+
+.skills-card > .aws {
+  color: #ff9900; /* AWS orange */
+}
+
+.skills-card > .kafka {
+  color: #ffffff; /* Kafka white */
+}
+
+.skills-card > .redis {
+  color: #dc382d; /* Redis red */
+}
+
+.skills-card > .mockito {
+  color: #4caf50; /* Mockito green */
+}
+
 /* ---------------- RESPONSIVE ---------------- */
 
 @media screen and (max-width: 481px) {
+
   .skills-card > .xd {
     width: 70px;
     height: 70px;
   }
+
   .skills-card > .js {
     width: 70px;
     height: 70px;
   }
+
   .router-title {
     font-size: 16px !important;
   }
+
   .skills-card {
     width: 150px;
     height: 150px;
@@ -235,6 +261,7 @@
 }
 
 @media screen and (max-width: 377px) {
+
   .skills-card {
     width: 130px;
     height: 130px;
